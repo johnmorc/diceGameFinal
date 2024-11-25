@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <h1>Dice Game: User vs Computer</h1>
+
+  <div class="image-gallery">
+    <img src="./images/die1.PNG" alt="Dice 1">
+    <img src="./images/die2.PNG" alt="Dice 2">
+    <img src="./images/die3.PNG" alt="Dice 3">
+    <img src="./images/die4.PNG" alt="Dice 4">
+    <img src="./images/die5.PNG" alt="Dice 5">
+    <img src="./images/die6.PNG" alt="Dice 6">
+  </div>
+
+
+  <div class="game-area">
+    <div class="scores">
+      <p><strong>User Score:</strong> <span id="user-total">0</span></p>
+      <p><strong>Computer Score:</strong> <span id="computer-total">0</span></p>
+    </div>
+  
+    <div class="results">
+      <p><strong>Current Rolls:</strong></p>
+      <div class="dice-images">
+        <div>
+          <p>User:</p>
+          <img id="user-dice1" src="./images/die1.PNG" alt="User Dice 1">
+          <img id="user-dice2" src="./images/die1.PNG" alt="User Dice 2">
+        </div>
+        <div>
+          <p>Computer:</p>
+          <img id="computer-dice1" src="./images/die1.PNG" alt="Computer Dice 1">
+          <img id="computer-dice2" src="./images/die1.PNG" alt="Computer Dice 2">
+        </div>
+      </div>
+    </div>
+  
+    <button id="roll-btn">Roll Dice</button>
+    <button id="reset-btn">Reset Game</button>
+    <p id="winner-message"></p>
+  </div>
+  
+</body>
+</html>
